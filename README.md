@@ -30,6 +30,7 @@ Server: Apache / XAMPP / LAMP
 
 📂 Project Structure
 tripmate/
+
 │
 ├── index.php            # Landing page / login redirect
 ├── config/
@@ -49,6 +50,9 @@ tripmate/
 │   ├── js/              # Scripts
 │   └── images/          # Images
 └── db.sql               # Database schema
+
+
+
 
 ⚡ Setup Instructions
 
