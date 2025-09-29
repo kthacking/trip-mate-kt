@@ -1,74 +1,90 @@
-# Welcome to your Lovable project
+TripMate – College Trip Management 🚍🎒
+📌 Project Overview
 
-## Project info
+TripMate is a complete web-based College Trip Management System that helps colleges plan, organize, and manage trips easily.
+From student registrations to budget management and itinerary planning, everything can be handled in one platform.
 
-**URL**: https://lovable.dev/projects/2a117e56-ead1-4172-b4f8-98b44a911f94
+✨ Features
 
-## How can I edit this code?
+👨‍🎓 Student Registration – Students can register for trips online.
 
-There are several ways of editing your application.
+📅 Trip Scheduling – Manage trip date, time, and itinerary.
 
-**Use Lovable**
+💰 Expense & Budget Tracking – Keep track of total expenses and per-student contributions.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2a117e56-ead1-4172-b4f8-98b44a911f94) and start prompting.
+🚌 Transport & Accommodation Management – Assign buses, book hotels, and manage logistics.
 
-Changes made via Lovable will be committed automatically to this repo.
+📑 Admin Dashboard – College staff can monitor all details in one place.
+
+📱 Responsive Design – Works on mobile, tablet, and desktop.
+
+🛠️ Tech Stack
+
+Frontend: HTML, CSS, JavaScript
+
+Backend: PHP (Core PHP, no framework)
+
+Database: MySQL
+
+Server: Apache / XAMPP / LAMP
+
+📂 Project Structure
+tripmate/
+│
+├── index.php            # Landing page / login redirect
+├── config/
+│   └── database.php     # DB connection
+├── includes/
+│   ├── header.php       # Common header
+│   ├── footer.php       # Common footer
+│   ├── functions.php    # Reusable PHP functions
+│   └── auth.php         # Authentication checks
+├── public/
+│   ├── login.php        # Student/Admin login
+│   ├── register.php     # New student registration
+│   ├── dashboard.php    # Admin dashboard
+│   └── trips.php        # Trip details
+├── assets/
+│   ├── css/             # Stylesheets
+│   ├── js/              # Scripts
+│   └── images/          # Images
+└── db.sql               # Database schema
+
+⚡ Setup Instructions
+
+Clone this repository
+
+git clone https://github.com/kthacking/trip-mate-kt.git
+cd trip-mate-kt
 
 
-**Use your preferred IDE**
+Import db.sql into your MySQL database.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Update config/database.php with your DB credentials.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Run the project in XAMPP or LAMP environment.
 
-Follow these steps:
+Open in browser:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+http://localhost/tripmate
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🎯 Future Enhancements
 
-# Step 3: Install the necessary dependencies.
-npm i
+Online payment integration 💳
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Student feedback & rating system ⭐
 
-**Edit a file directly in GitHub**
+AI-based travel suggestions 🤖
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Mobile app support 📱
 
-**Use GitHub Codespaces**
+🤝 Contributing
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## What technologies are used for this project?
+📧 Contact
 
-This project is built with:
+👤 Kirubalan V
+📩 Email: kirubalan220@gmail.com
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2a117e56-ead1-4172-b4f8-98b44a911f94) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+🔗 LinkedIn: Kirubalan V
