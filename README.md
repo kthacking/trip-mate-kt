@@ -33,23 +33,38 @@ tripmate/
 
 │
 ├── index.php            # Landing page / login redirect
+
 ├── config/
+
 │   └── database.php     # DB connection
+
 ├── includes/
 │   ├── header.php       # Common header
+
 │   ├── footer.php       # Common footer
+
 │   ├── functions.php    # Reusable PHP functions
+
 │   └── auth.php         # Authentication checks
+
 ├── public/
 │   ├── login.php        # Student/Admin login
+
 │   ├── register.php     # New student registration
+
 │   ├── dashboard.php    # Admin dashboard
+
 │   └── trips.php        # Trip details
+
 ├── assets/
 │   ├── css/             # Stylesheets
-│   ├── js/              # Scripts
+
+│   ├── js/              # Scripts  
+
 │   └── images/          # Images
+
 └── db.sql               # Database schema
+
 
 
 
